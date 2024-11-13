@@ -1,0 +1,23 @@
+Comandos git
+
+git status -> mostra o status de produtos que não estão commitados
+
+git add (nome-do-arquivo insere um arquivo específico, . ou --all todos os arquivos) -> insere os arquivos no git
+
+git commit -m "Mensagem desejada" -> commita os arquivos que foram adicionados
+
+git rm --cached nome-do-arquivo remove um arquivo específico, ou -r . -> remove todos os arquivos
+
+git log -> mostra o histórico de commits do repositório
+
+git log --oneline (-n) -> mostra apenas a hash e o commit em uma única linha. O -n é pra selecionar a quantidade de commits que irá aparecer ordenado do último para o primeiro.
+
+code . -> abre a pasta atual no vs code
+
+touch .gitignore -> insere um arquivo que permite ao git ignorar arquivos que não devem ser comitados. Para ignorar basta inserir o nome do arquivo desejado.
+
+git branch -> lista as branchs existentes
+
+git branch nome-da-branch -> cria uma nova branch, mas não entra nela
+
+git checkout -b nome-da-branch -> cria uma nova branch e entra nela
