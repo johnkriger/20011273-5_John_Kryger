@@ -21,3 +21,5 @@ git branch -> lista as branchs existentes
 git branch nome-da-branch -> cria uma nova branch, mas não entra nela
 
 git checkout -b nome-da-branch -> cria uma nova branch e entra nela
+
+git merge nome-da-branch -> mescla o merge com o main (ou master)
