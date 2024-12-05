@@ -17,14 +17,18 @@
                 <div class="modulo verde">
                     <h3>Módulo 01 -</h3>
                     <ul>
-                        <li><a href="exercicio.php?dir=teste&file=teste">Exercício A</a></li>                       
+                        <li>
+                            <a href="exercicio.php?dir=basico&file=ola.php">
+                                Olá PHP
+                            </a>
+                        </li>                       
                     </ul>
                 </div>
              </nav>  
         </div>
     </main>
     <footer class="rodape">
-        COD3R & ALUNOS © <?= date('d/m/Y'); ?>
+        TR&INAM&NTO © <?= date('d/m/Y');?>
     </footer>
 </body>
 </html>
