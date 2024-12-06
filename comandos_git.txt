@@ -39,3 +39,7 @@ git stash pop stash@{número-do-stash} -> recupera o conteudo e remove um stash 
 git stash drop -> remove o primeiro item da lista sem aplicar
 
 git stash drop stash@{número-do-stash} -> remove um stash específico na lista
+
+git alias -> renomeia os comandos
+
+git reset --soft HEAD~1 -> descomita a última branchgit reset --soft HEAD~1 para descomitar branch

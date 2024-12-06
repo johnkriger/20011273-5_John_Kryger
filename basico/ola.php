@@ -1,6 +1,6 @@
-<div class="titulo">Hi PHP</div>
+<div class="titulo">Olá PHP</div>
 
 <?php 
-echo 'Hello';
+echo 'Hello';?><br><?php 
 echo 'How are you today?';
-?>
+?><br>

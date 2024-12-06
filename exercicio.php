@@ -20,9 +20,9 @@
     <main class="principal">
         <div class="conteudo">
             <?php
-                include('/basico/ola.php'); //dessa forma é passado o caminho do arquivo desejado
+                // include('/basico/ola.php'); //dessa forma é passado o caminho do arquivo desejado
                 // include($_GET['dir'] . "/" . $_GET['file'] . ".php"); // dessa forma tudo que estiver dentro de [''] tem q ser passado por referência na url
-                // include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php"); // dessa forma a concatenação é feita sem usar o .
+                include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php"); // dessa forma a concatenação é feita sem usar o .
             ?>
         </div>
     </main>
